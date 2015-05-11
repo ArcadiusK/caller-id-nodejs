@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div ng-controller="MainCtrl">
+  
+    <h1>Arcadius Kazimierski caller-id/h1>
+
+
+    <p> Type phone number to send text to: 
+<input type="text" name="arcPhone" ng-model="arcPhone">
+ </p>
+
+  <button type="button" ng-click="getName()">Click here to look up name and send text</button>
+
+
+  <h3> Name looked up: [[friends.name]] </h3>
+
+
+
+</div>
+{% endblock %}
