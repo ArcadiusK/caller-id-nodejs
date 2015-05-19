@@ -12,6 +12,7 @@ var users = require('./routes/users');
 
 var app = express();
 
+//this is key
 var arc = require('./config/arcadius_api_keys');
 
 app.engine('html', swig.renderFile);
